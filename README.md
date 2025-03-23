@@ -25,3 +25,14 @@ A aplicação foi desenvolvida em **Python** e utiliza a biblioteca **Streamlit*
    ```bash
    git clone https://github.com/seu-usuario/nome-do-repositorio.git
    cd nome-do-repositorio
+
+2. Atualize o `requirements.txt`:
+O `numpy==2.0.0` pode não ser a melhor escolha para o seu ambiente. Vamos usar uma versão mais estável e amplamente compatível. Atualize o `requirements.txt` para:
+   ```plaintext
+    streamlit==1.43.2
+    numpy==1.26.0
+    pandas==2.2.3
+    yfinance==0.2.18
+    matplotlib==3.8.0
+    plotly==5.18.0
+    scipy==1.12.0
