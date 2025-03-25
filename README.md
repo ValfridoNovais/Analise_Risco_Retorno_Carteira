@@ -27,6 +27,7 @@ A aplicação foi desenvolvida em **Python** e utiliza a biblioteca **Streamlit*
    cd nome-do-repositorio
 
 2. Atualize o `requirements.txt`:
+
 O `numpy==2.0.0` pode não ser a melhor escolha para o seu ambiente. Vamos usar uma versão mais estável e amplamente compatível. Atualize o `requirements.txt` para:
    ```plaintext
     streamlit==1.43.2
